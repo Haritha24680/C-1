@@ -1,0 +1,14 @@
+C-2
+program to find determine the largest and smaller or 2 numbers
+#include <stdio.h>
+#include <stdlib.h
+int main(){
+int a,b, big small;
+printf("Enter the value of a :");
+scanf("%d",&a);
+printf("Enter the value of b :");
+scanf("%d", &b);
+big =(a+b+abs(a-b)/2;
+printf("large :%d, smaller %d", big, small);
+return 0;
+}
